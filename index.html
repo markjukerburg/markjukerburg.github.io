@@ -1,11 +1,253 @@
-<html>
-<head><title> your name Protfolio</title>
-<style>
-.title{color:red;text-align:center;}
-.para{color:green;}
-</style>
-<body>
-<h1 class = 'title'>"fdhg  roiegj ior"</h1>
-<p class ='para'>I am Adarsh</p>
-</body>
-</html>
+
+
+<!DOCTYPE html><html lang='en' class=''>
+<head><script src='https://static.codepen.io/assets/editor/live/console_runner-1df7d3399bdc1f40995a35209755dcfd8c7547da127f6469fd81e5fba982f6af.js'></script><script src='https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" /><link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" /><link rel="canonical" href="https://codepen.io/WhiteWolfWizard/pen/mjbJB" />
+<meta name="viewport" content="initial-scale=1,user-scalable=no">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
+<style class="cp-pen-styles">@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@font-face {
+  font-family: 'entypo';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot");
+  src: url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix") format("eot"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.woff") format("woff"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+body {
+  padding: 25px;
+  background-attachment: fixed;
+  box-shadow: inset 0 10px #999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  color: #333;
+  line-height: normal;
+  font-smoothing: antialiased;
+}
+
+a {
+  color: #999;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#container {
+  max-width: 960px;
+  min-width: 100px;
+  margin: 0 auto;
+  outline: 0;
+}
+
+#header h1 {
+  margin: 0 0 15px;
+  display: inline-block;
+  box-shadow: 0 3px #999;
+  font-size: 30pt;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#header .info li {
+  position: relative;
+  min-height: 25px;
+  padding-left: 25px;
+  line-height: 25px;
+}
+#header .info li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 25px;
+  min-height: 25px;
+  font-family: 'entypo', sans-serif;
+  font-size: 12pt;
+  color: #999;
+  line-height: 25px;
+  text-align: center;
+}
+#header .info li.address:before {
+  content: '\E724';
+}
+#header .info li.email:before {
+  content: '\2709';
+}
+#header .info li.phone span {
+  position: relative;
+  margin-right: 25px;
+  display: inline-block;
+}
+#header .info li.phone span:before {
+  position: absolute;
+  top: 0;
+  left: -25px;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  font-family: 'entypo', sans-serif;
+  font-size: 12pt;
+  color: #999;
+  line-height: 25px;
+  text-align: center;
+}
+#header .info li.phone span.home:before {
+  content: '\1F4DE';
+}
+#header .info li.phone span.cell:before {
+  content: '\1F4F1';
+}
+
+h2 {
+  display: inline-block;
+  box-shadow: 0 3px #999;
+  font-size: 20pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.article {
+  margin-top: 25px;
+}
+.article ul {
+  margin-top: 15px;
+}
+.article ul li {
+  clear: both;
+}
+.article ul li span {
+  float: left;
+  min-height: 25px;
+  color: #999;
+  font-weight: 700;
+  line-height: 25px;
+}
+.article ul li i {
+  float: right;
+  min-height: 25px;
+  font-size: 9pt;
+  font-weight: 700;
+  line-height: 25px;
+}
+.article ul li.title {
+  font-weight: 600;
+}
+.article ul li u {
+  color: #999;
+  text-decoration: none;
+}
+.article ul li.list {
+  min-height: 25px;
+  line-height: 25px;
+}
+.article ul li.list:before {
+  content: '\25B8';
+  float: left;
+  margin-right: 5px;
+  font-family: 'entypo', sans-serif;
+  font-size: 16pt;
+  color: #999;
+}
+
+@media all and (max-width: 600px) and (min-width: 100px) {
+  h1 {
+    display: block !important;
+    font-size: 16pt !important;
+    text-align: center;
+  }
+
+  h2 {
+    display: block;
+    font-size: 14pt;
+  }
+
+  .article ul li span, .article ul li i {
+    float: none;
+    display: block;
+  }
+}
+</style></head><body>
+<main contenteditable='true' id='container'>
+
+<header id='header'>
+<h1>Adarsh N</h1>
+<ul class='info'>
+<li class='address'>123 Happy Dr., Earth, Milky Way A1B-2C3</li>
+<li class='phone'>
+<span class='home'>123.456.7890</span>
+<span class='cell'>123.456.7890</span>
+</li>
+<li class='email'><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="593c21383429353c193c34383035773a3634">[email&#160;protected]</a></li>
+</ul>
+</header>
+
+<article class='article'>
+<h2>Work</h2>
+<ul>
+<li>
+<span>Subway Sandwiches & Salads</span>
+<i>May &ndash; Oct. / 13</i>
+</li>
+<li class='title'>Supervising Sandwich Artist <u>&mdash;</u> Port Elgin, Ontario</li>
+<li class='list'>Serving customers, cashier, food preperation, opening and closing duties.</li>
+</ul>
+<ul>
+<li>
+<span>Winstars Gymnastics</span>
+<i>July &ndash; Sept. / 05</i>
+</li>
+<li class='title'>Coaches Assistant <u>&mdash;</u> Windsor, Ontario</li>
+<li class='list'>Assisted the coach in training children gymnastics and supervision.</li>
+</ul>
+</article>
+
+<article class='article'>
+<h2>Experience</h2>
+<ul>
+<li>
+<span>Sun Parlor Junior Public School</span>
+<i>Sept. / 05 &ndash; Feb. / 09</i>
+</li>
+<li class='title'>Teachers Assistant <u>&mdash;</u> Essex, Ontario</li>
+</ul>
+<ul>
+<li>
+<span>Essex District High School</span>
+<i>Apr. / 09</i>
+</li>
+<li class='title'>Teachers Assistant <u>&mdash;</u> Essex, Ontario</li>
+</ul>
+</article>
+
+<article class='article'>
+<h2>Special Skills & Technical Proficiency</h2>
+<ul>
+<li>
+<span>Computer Skills</span>
+</li>
+<li class='list'>Adobe Photoshop, Adobe Illustrator, Adobe Dreamweaver, Adobe InDesign, HTML/CSS & Javascript</li>
+</ul>
+<ul>
+<li>
+<span>Artistic Skills</span>
+</li>
+<li class='list'>Digital & Film Photography, Drawing, Painting, Screen Printing & Multimedia</li>
+</ul>
+</article>
+
+<article class='article'>
+<h2>References</h2>
+<ul>
+<li class='list'>References Available Upon Request</li>
+</ul>
+</article>
+</main>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script id="rendered-js">
+          $(function () {
+  var hex = ['#999', '#7ACC29', '#00CC7A', '#52CCCC', '#52A3CC'],
+  c = hex[Math.floor(Math.random() * hex.length)];
+  $('body').css({ 'box-shadow': 'inset 0 10px ' + c });
+  $('h1, h2').css({ 'box-shadow': '0 3px ' + c });
+  $('.article span, a, u').css({ color: c });
+  $('head').append('<style>*:before {color:' + c + '!important;}</style>');
+});
+          //# sourceURL=pen.js
+        </script>
+</body></html>
