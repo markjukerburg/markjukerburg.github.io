@@ -2,7 +2,7 @@
 
 ![Alt Text](https://i.imgur.com/CbvRZIY.gif)
 
-**[Try the live demo](https://shekit.github.io/alexa-sign-language-translator/)**
+**[Try the live demo](https://markjukerburg.github.io/a-sign-language-translator-master/)**
 
 **[Read the Blog Post on Tensorflow's Blog]() Coming Soon**
 
