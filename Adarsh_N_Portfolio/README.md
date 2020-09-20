@@ -5,4 +5,4 @@ This project is the first project of the Udacity Front-end Nonodegree Program. I
 
 I have refactored the code to include a simple about section along with adding my other projects from the nanodegree.
 
-To view the site on github pages go to http://jshanks24.github.io/Udacity-Portfolio-Site
+To view the site on github pages go to https://markjukerburg.github.io/Adarsh_N_Portfolio
