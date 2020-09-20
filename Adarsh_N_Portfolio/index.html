@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	
+	<title>Portfolio Site by Adarsh N</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<header>
+				<div class="col-md-6 col-sm-4 col-xs-4">
+					<img class="img-responsive logo" src="images/logo.png" alt="Portfolio Site Logo">
+				</div>
+
+				<div class="col-md-6 col-sm-8 col-sm-8 text-right text-uppercase">
+					<h1>Adarsh N</h1>
+					<h4>Software_devoloper</h4>
+				</div>
+			</header>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+			<hr>
+				<img class="img-responsive" src="images/desk.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Portfolio</h2>
+			</div>
+			</div>
+			<div class="row text-center">
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/Portfolio_Image_BW_small.jpg" alt="About" data-toggle="modal" data-target=".about-modal">
+				<h3>About</h3>
+				<p></p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/interactive-resume_small.jpg" alt="Interacive Resume Screenshot" data-toggle="modal" data-target=".resume-modal">
+				<h3>Interactive Resume</h3>
+				<p><a href="https://markjukerburg.github.io/Resume">Preview Project</a></p>
+				<p><a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/Resume">Source Code</a></p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/arcade-game_small.jpg" alt="Arcade Game Screenshot" width="500" height="400" data-toggle="modal" data-target=".game-modal">
+				<h3>Sign_Language_Recognition</h3>
+				<p><a href="https://markjukerburg.github.io/a-sign-language-translator-master/">Preview Project</a></p>
+				<p><a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/a-sign-language-translator-master">Source Code</a></p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/website-optimization_pizza_small.jpg" alt="Website Optimization Screenshot" data-toggle="modal" data-target=".optimize-modal">
+				<h3>Avocados_SwiftUi_APP</h3>
+				<p><a href="https://markjukerburg.github.io/Avocados_app/">Preview Project</a></p>
+				<p>
+        <a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/Avocados_app">Source Code</a></p>
+                
+			</div>
+                <!--
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/neighborhood-map_small.jpg" alt="Neighborhood Map Screenshot" data-toggle="modal" data-target=".map-modal">
+				<h3>Neighborhood Map</h3>
+				<p><a href="http://jshanks24.github.io/Udacity-Neighborhood-Map">Preview Project</a></p>
+				<p><a href="http://github.com/jshanks24/Udacity-Neighborhood-Map">Source Code</a></p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/feedreader-testing_small.jpg" alt="Feedreader Testing Screenshot" data-toggle="modal" data-target=".testing-modal">
+				<h3>Feedreader Testing</h3>
+				<p><a href="http://jshanks24.github.io/Udacity-Feedreader-Testing">Preview Project</a></p>
+				<p><a href="http://github.com/jshanks24/Udacity-Feedreader-Testing">Source Code</a></p>
+			</div>
+           -->
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<hr>
+			<p class="text-muted text-center">The way we spends  time defines who we are!!! </p>
+		</div>
+	</footer>
+
+<!-- About Modal -->
+<div class="modal fade about-modal" tabindex="-1" role="dialog" aria-labelledby="aboutModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">About</h4>
+      </div>
+      <div class="modal-body">
+		<p>Hi, my name is Adarsh. I am a  software developer. A while back I completed a nanodegree at Udacity.com. It was a great experience and I learned so many more skills to add to my skillset.</p>
+        <p>This web page is a refactored version of the first project in the Udacity Full stack devoloper Nanodegree. It has been refactored to showcase all of my projects completed durring the course of the nanodegree.</p>
+		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Interactive Resume Modal -->
+<div class="modal fade resume-modal" tabindex="-1" role="dialog" aria-labelledby="resumeModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Interactive Resume</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/interactive-resume_small.jpg" alt="Interacive Resume Screenshot">
+		<hr>
+        <p>This project is the second project of the Udacity Front-end Nonodegree Program. It is a simple one page interactive resume featuring a Google Map of the places I have lived, went to school, and worked.</p>
+		<p>This project was built using a javascript helper to layout the structure of the page.</p>
+		<p><a href="https://markjukerburg.github.io/Resume">Preview Project</a></p>
+		<p><a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/Resume">Source Code</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sign_language_recognition Modal -->
+<div class="modal fade game-modal" tabindex="-1" role="dialog" aria-labelledby="gameModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sign_Language_Recognition_Model</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/arcade-game_small.jpg" alt="Arcade Game Screenshot">
+		<hr>
+        <p>This helps to create communication for Deaf and dumb people.</p>
+		<p><a href="https://markjukerburg.github.io/a-sign-language-translator-master">Preview Project</a></p>
+		<p><a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/a-sign-language-translator-master">Source Code</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Website Optimization Modal -->
+<div class="modal fade optimize-modal" tabindex="-1" role="dialog" aria-labelledby="optimizeModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Avocados_Swift_UI_APP</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/website-optimization_pizza_small.jpg" alt="Website Optimization Screenshot">
+		<hr>
+        <p>Avocado Recipe App for Cooking different recipes of avocado</p>
+		<p><a href="https://markjukerburg.github.io/Avocados_app/">Preview Project</a></p>
+		<p><a href="https://github.com/markjukerburg/markjukerburg.github.io/tree/master/Avocados_app">Source Code</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Neighborhood Map Modal 
+<div class="modal fade map-modal" tabindex="-1" role="dialog" aria-labelledby="mapModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Neighborhood Map</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/neighborhood-map_small.jpg" alt="Neighborhood Map Screenshot">
+        <hr>
+		<p>This application is an interactive map of Raleigh, NC with locations that I am interested in marked on the map. When one of the locations are clicked on a popup window will display additional information about that location including the 5 most recent tips from Foursquare.</p>
+		<p>There is also a completely integrated instant search feature to allow the user to search through the locations marked on the map.</p>
+		<p><a href="http://jshanks24.github.io/Udacity-Neighborhood-Map">Preview Project</a></p>
+		<p><a href="http://github.com/jshanks24/Udacity-Neighborhood-Map">Source Code</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<!-- Feedreader Testing Modal 
+<div class="modal fade testing-modal" tabindex="-1" role="dialog" aria-labelledby="testingModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Feedreader Testing</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/feedreader-testing_small.jpg" alt="Feedreader Testing Screenshot">
+		<hr>
+        <p>This project uses jasmine to test the functionality of a feed reader website.</p>
+		<p><a href="http://jshanks24.github.io/Udacity-Feedreader-Testing">Preview Project</a></p>
+		<p><a href="http://github.com/jshanks24/Udacity-Feedreader-Testing">Source Code</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    -->
+    
+    
+</body>
+</html>
